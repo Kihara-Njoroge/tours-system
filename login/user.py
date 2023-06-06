@@ -3,8 +3,8 @@ from typing import List
 from pydantic import BaseModel
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
-# from places.destination import TourBasicInfo
-# from background import audit_log_transaction
+from places.destination import TourBasicInfo
+from background import audit_log_transaction
 
 
 from datetime import datetime
@@ -35,7 +35,7 @@ class Tourist:
     login: User
     date_signed: datetime
     booked: int
-    # tours: List[ToursBasicInfo]
+    tours: List[TourBasicInfo]
 
 
 @router.post("api/user/signup/")
@@ -78,6 +78,6 @@ def login(username:str, password: str, bg_tasks: BackgroundTasks):
     else:
         tourist = tourist_list[0]
         tour_json = jsonable_encoder(tourist)
-        bg_task.add_task(audit_log_transaction, touristId=str(tourist['login']['id']), message="login")
+        bg_tasks.add_task(audit_log_transaction, touristId=str(tourist['login']['id']), message="login")
         return JSONResponse(content=tour_json, status_code=status.HTTP_200_OK)
 
