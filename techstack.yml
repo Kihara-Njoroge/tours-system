@@ -1,0 +1,80 @@
+repo_name: Kihara-Njoroge/tours-system
+report_id: 0f332170ee184b5989bd2ce8250f1b21
+repo_type: Public
+timestamp: '2023-11-13T04:39:09+00:00'
+requested_by: Kihara-Njoroge
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source: requirements.txt
+  last_updated_by: kihara-njoroge
+  last_updated_on: 2023-06-06 07:45:44.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: requirements.txt
+  last_updated_by: kihara-njoroge
+  last_updated_on: 2023-06-06 07:45:44.000000000 Z
+- name: Uvicorn
+  description: The lightning-fast ASGI server
+  website_url: https://www.uvicorn.org/
+  version: 0.18.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/12834/uvicorn.png
+  detection_source_url: requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: kihara-njoroge
+  last_updated_on: 2023-06-06 07:45:44.000000000 Z
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/pydantic
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: kihara-njoroge
+  last_updated_on: 2023-06-06 07:45:44.000000000 Z
