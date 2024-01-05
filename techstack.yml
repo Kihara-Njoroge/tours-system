@@ -1,7 +1,8 @@
 repo_name: Kihara-Njoroge/tours-system
 report_id: 0f332170ee184b5989bd2ce8250f1b21
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-13T04:39:09+00:00'
+timestamp: '2024-01-05T08:46:32+00:00'
 requested_by: Kihara-Njoroge
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Kihara-Njoroge/tours-system
   detection_source: Repo Metadata
 - name: FastAPI
   description: A high performance, easy to learn, fast to code, ready for production
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/Kihara-Njoroge/tours-system/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: kihara-njoroge
   last_updated_on: 2023-06-06 07:45:44.000000000 Z
@@ -38,6 +41,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Kihara-Njoroge/tours-system
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -47,6 +51,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Kihara-Njoroge/tours-system/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: kihara-njoroge
   last_updated_on: 2023-06-06 07:45:44.000000000 Z
@@ -60,13 +65,13 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/12834/uvicorn.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/tours-system/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: kihara-njoroge
   last_updated_on: 2023-06-06 07:45:44.000000000 Z
 - name: pydantic
   description: Data validation and settings management using python 3.6 type hinting
-  package_url: https://pypi.org/pydantic
+  package_url: https://pypi.org/project/pydantic
   version: 1.9.1
   license: MIT
   open_source: true
@@ -74,7 +79,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/Kihara-Njoroge/tours-system/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: kihara-njoroge
   last_updated_on: 2023-06-06 07:45:44.000000000 Z
