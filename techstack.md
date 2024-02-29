@@ -4,8 +4,8 @@
 Kihara-Njoroge/tours-system is built on the following main stack:
 
 - [Python](https://www.python.org) – Languages
-- [Uvicorn](https://www.uvicorn.org/) – Web Servers
 - [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- [Uvicorn](https://www.uvicorn.org/) – Web Servers
 
 Full tech stack [here](/techstack.md)
 
@@ -16,8 +16,8 @@ Full tech stack [here](/techstack.md)
 Kihara-Njoroge/tours-system is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/12834/uvicorn.png' alt='Uvicorn'/> [Uvicorn](https://www.uvicorn.org/) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/12834/uvicorn.png' alt='Uvicorn'/> [Uvicorn](https://www.uvicorn.org/) – Web Servers
 
 Full tech stack [here](/techstack.md)
 
@@ -28,7 +28,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [Kihara-Njoroge/tours-system](https://github.com/Kihara-Njoroge/tours-system)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|6<br/>Tools used|01/05/24 <br/>Report generated|
+|6<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
